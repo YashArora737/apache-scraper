@@ -1,0 +1,6 @@
+httpx==0.24.0
+tenacity==8.2.2
+beautifulsoup4==4.12.2
+tqdm==4.65.0
+PyYAML==6.0.3
+pytest==7.4.0

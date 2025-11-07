@@ -1,0 +1,20 @@
+# Configuration for Apache Jira scraper
+projects:
+  - HADOOP
+  - SPARK
+  - KAFKA
+
+# Maximum issues to fetch per project (use None for all)
+max_issues_per_project: 200
+
+# Pagination size (maxResults)
+page_size: 10
+
+# Output directories
+output_raw_dir: output/raw
+output_jsonl_dir: output/jsonl
+
+# HTTP / rate limit settings
+http_timeout_seconds: 30
+max_retries: 5
+backoff_factor: 2
