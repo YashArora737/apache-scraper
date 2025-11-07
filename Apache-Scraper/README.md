@@ -1,4 +1,4 @@
-# Apache Jira Scraper (final deliverable)
+# Apache Jira Scraper 
 
 This repository implements a resilient, resumable pipeline that scrapes public issue data from Apache Jira and converts it into a JSONL corpus suitable for downstream processing or LLM training.
 
@@ -132,3 +132,4 @@ Optional: create `DELIVERABLES.md` describing the run used to generate the datas
 If you want, I can prepare a final `DELIVERABLES.md`, add a small GitHub Actions workflow, or run a final smoke-scrape and post a sample of the JSONL output for your review.
 
 Thank you — the pipeline is ready for final packaging and delivery.
+
